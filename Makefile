@@ -1,29 +1,38 @@
 M4 = m4
 PANDOC = pandoc
-M4_SOURCE = ps-index.md.m4
-M4_DEST = _index.md
+M4_SOURCE = ps-dossier.md.m4
+M4_DEST = _ps-dossier.md
 
-PANDOC_HTML_DEST = _index.html
-PANDOC_LATEX_DEST = _index.latex
-PANDOC_PDF_DEST = _index.pdf
+PANDOC_HTML_DEST = _ps-dossier.html
+PANDOC_LATEX_DEST = _ps-dossier.tex
+PANDOC_PDF_DEST = _ps-dossier.pdf
 
 
-.PHONY: clean
+.PHONY: clean pdf latex markdown html
 
-clean:
-	rm -f _index.*
+pdf: $(PANDOC_PDF_DEST)
+	echo PDF generated, you can also use `make latex, `make html` and `make markdown`
 
-pdf: $(M4_SOURCE)
-	cat $(M4_DEST) | pandoc -fmarkdown -tlatex > $(PANDOC_PDF_DEST)
+latex: $(PANDOC_LATEX_DEST)
+	echo LaTeX generated, you can also use `make pdf`, `make html` and `make markdown`
 
-latex: $(M4_SOURCE)
-	cat $(M4_DEST) | pandoc -fmarkdown -tlatex > $(PANDOC_LATEX_DEST)
-
-html: $(M4_SOURCE)
-	cat $(M4_DEST) | pandoc -fmarkdown -thtml > $(PANDOC_HTML_DEST)
+html: $(PANDOC_HTML_DEST)
+	echo HTML generated, you can also use `make pdf`, `make latex` and `make markdown`
 
 markdown: $(M4_DEST)
-	echo Mardown generated, you can use `make pdf`, `make latex` and `make html`
+	echo Mardown generated, you can also use `make pdf`, `make latex` and `make html`
+
+clean:
+	rm -f $(PANDOC_HTML_DEST) $(PANDOC_LATEX_DEST) $(PANDOC_PDF_DEST) $(M4_MARKDOWN_DEST)
+
+$(PANDOC_PDF_DEST): $(M4_SOURCE)
+	cat $(M4_DEST) | pandoc -fmarkdown -tpdf > $(PANDOC_PDF_DEST)
+
+$(PANDOC_LATEX_DEST): $(M4_SOURCE)
+	cat $(M4_DEST) | pandoc -fmarkdown -tlatex > $(PANDOC_LATEX_DEST)
+
+$(PANDOC_HTML_DEST): $(M4_SOURCE)
+	cat $(M4_DEST) | pandoc -fmarkdown -thtml > $(PANDOC_HTML_DEST)
 
 $(M4_DEST): $(M4_SOURCE)
 	m4 $(M4_SOURCE) > $(M4_DEST)
