@@ -1,6 +1,3 @@
-# PostScript Resources
-
-
 ### Books
 
 1. "PostScript Language Reference, Third Edition" (often referred to as the Red Book) - Adobe Systems Incorporated

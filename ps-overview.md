@@ -1,7 +1,3 @@
-# PostScript Page Description Language
-## An Overview
-
-
 This document gives an overview of the PostScript PDL --- the first 'truly' device-independent Page Description Language, dating back to Adobe in the early 80s. 
 
 PS changed the way we thought about 'graphics'. Prior to Adobe's PS, we had people in big suits at Madison Avenue slapping their secretaries on the buttocksk, drinking scotch whiskey during the day, and occasionally used large, expensive machines to create graphics for advertisement, TV, magazines and so on. 

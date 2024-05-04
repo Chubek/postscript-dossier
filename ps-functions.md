@@ -1,6 +1,3 @@
-# PostScript Functions
-
-
 ### Defining Procedures
 
 A PostScript procedure is defined by enclosing commands within curly braces. Here is how you define a simple procedure:

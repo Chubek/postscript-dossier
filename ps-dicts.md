@@ -1,5 +1,3 @@
-# PostScript Dictionaries
-
 ### Structure of a Dictionary
 
 In PostScript, a dictionary is created with the `dict` operator and is used to store associations between keys (typically names) and values (which can be any PostScript object types). Each key in a dictionary must be unique, and its associated value can be of any data type, including numbers, strings, arrays, or even other dictionaries.

@@ -1,6 +1,3 @@
-# PostScript Control Structures
-
-
 ### 1. Conditional Execution
 
 **`if` and `ifelse`**  

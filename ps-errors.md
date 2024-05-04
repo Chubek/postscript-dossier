@@ -1,6 +1,3 @@
-# Errors in PostScript
-
-
 ### 1. **`undefined`**
 This error occurs when an undefined name or operator is referenced.
 **Example:**

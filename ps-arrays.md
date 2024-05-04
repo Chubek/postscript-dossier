@@ -1,6 +1,3 @@
-# PostScript Arrays
-
-
 ### Creating Arrays
 
 To create an array in PostScript, you use square brackets `[ ]`. Each item within the brackets becomes an element of the array. Here’s how you create a simple array:

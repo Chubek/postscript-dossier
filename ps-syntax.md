@@ -1,6 +1,4 @@
-# PostScript Syntax
-
-This document journals the syntax for PostScript. PS is:
+### Features of PostScript Syntax
 
 - Postfix (hence the name!)
 - Stack
