@@ -46,3 +46,6 @@ Really you can use Pandoc to convert it to anything (except PostScript, but you 
 
 Enjoy.
 
+
+PS (hehe, get it?): See [postscript-manpages](https://github.com/Chubek/postscript-manpages)
+
