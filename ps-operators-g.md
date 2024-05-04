@@ -1,3 +1,5 @@
+### Operators: *G*
+
 1. **gcheck**: The `gcheck` operator checks if a procedure is in the current graphics state. It returns true if the procedure is found, otherwise false.
 
 2. **ge**: The `ge` operator compares two numbers for greater than or equal to. It returns true if the first number is greater than or equal to the second number, otherwise false.

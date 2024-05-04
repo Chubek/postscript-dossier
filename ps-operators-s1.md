@@ -1,3 +1,5 @@
+### Operators: *S* (1)
+
 1. **save**: Saves the current graphics state on the graphics state stack.
    ```postscript
    save  % Saves the current state for later restoration

@@ -1,3 +1,5 @@
+### Operators: *D*
+
 1. **def**: The `def` operator defines a new name in the current dictionary and associates it with a value. Example:
    ```
    /myVar 42 def    % Defines a new variable named myVar with the value 42

@@ -1,3 +1,5 @@
+### Operators: *R*
+
 1. **rand**: Returns a random integer between 0 and the maximum value the random number generator supports.
    ```
    rand  % Generates a random integer

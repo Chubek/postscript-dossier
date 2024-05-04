@@ -1,3 +1,5 @@
+### Operators: *E*
+
 1. **echo**: The `echo` operator prints out the provided arguments to the output device. Example:
    ```
    (Hello, world!) echo    % Prints "Hello, world!" to the output device

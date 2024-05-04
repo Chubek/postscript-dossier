@@ -40,7 +40,7 @@ include([ps-functions.md]) the functions
 
 ## The Control Structures
 
-include([ps-ctrlstructs.md]) the control structures
+include([ps-ctrlstruct.md]) the control structures
 
 ## The Dictionaries
 
@@ -48,7 +48,7 @@ include([ps-dicts.md]) the dictionaries
 
 ## The Arrays
 
-include([ps-array.md]) the arrays
+include([ps-arrays.md]) the arrays
 
 ## The Fonts
 

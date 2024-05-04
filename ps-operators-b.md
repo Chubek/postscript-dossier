@@ -1,3 +1,5 @@
+### Operators: *B*
+
 1. **begin**: The `begin` operator marks the start of a code block in PostScript. It is often paired with `end` to enclose a section of code. For example:
    ```
    /myDict << /Name (John) /Age 30 >> begin

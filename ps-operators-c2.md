@@ -1,3 +1,5 @@
+### Operators: *C* (2)
+
 1. **currentblackgeneration**: The `currentblackgeneration` operator retrieves the current black generation function from the graphics state. It returns a dictionary containing parameters for black generation.
 
 2. **currentcacheparams**: The `currentcacheparams` operator retrieves the current caching parameters from the graphics state. It returns a dictionary containing caching parameters.

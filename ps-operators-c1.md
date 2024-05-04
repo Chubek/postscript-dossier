@@ -1,3 +1,5 @@
+### Operators: *C* (1)
+
 1. **clear**: The `clear` operator removes all elements from the operand stack. Example:
    ```
    1 2 3 clear    % Stack becomes empty

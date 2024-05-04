@@ -1,3 +1,5 @@
+### Operators: *T, U, V, W, X, Y*
+
 1. **timeout**: Typically related to setting or handling timeouts, but not a standard operator itself.
 
 2. **token**: Parses the next token from a string.

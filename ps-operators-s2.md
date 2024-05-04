@@ -1,3 +1,5 @@
+### Operators: *S* (2)
+
 1. **setoverprint**: Sets the overprint mode (true enables overprinting).
    ```postscript
    true setoverprint  % Enables overprinting
